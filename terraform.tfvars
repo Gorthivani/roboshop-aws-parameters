@@ -23,4 +23,15 @@ parameters = {
   ## Passwords
   "docdb.dev.master_password" = { type = "String", value = "roboshop1234" }
   "rds.dev.master_password"   = { type = "String", value = "roboshop1234" }
+
+  ## ElasticSearch
+  "elasticsearch.username" = { type = "String", value = "elastic" }
+  "elasticsearch.password" = { type = "SecureString", value = "IE_jRn*H5wKGW*q12UAC" }
+
+  ##Nexus
+  "nexus.username"     = { type = "String", value = "admin" }
+  "nexus.password"     = { type = "SecureString", value = "admin123" }
+  "nexus.dev.username" = { type = "String", value = "admin" }
+  "nexus.dev.password" = { type = "SecureString", value = "admin123" }
+
 }
